@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 10</title>
+    <style>
+        nav ul{
+            padding: 0%;
+        }
+nav li a{
+        display:block;
+        background-color: brown;
+        color: black;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        border-bottom: solid 1px white;
+
+}
+    .dropdown a{ 
+        background-color: blueviolet;
+    }
+
+    li.dropdown ul{
+                display: none;
+    }
+
+    li.dropdown:hover ul{
+        display: block;
+    }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="dropdown">
+                <a href="">Fruits</a>
+                <ul>
+                    <li><a href="#">Bananas</a></li>
+                    <li><a href="#">Apples</a></li>
+                    <li><a href="#">Oranges</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="">Vegetables</a>
+                <ul>
+                    <li><a href="#">Cucumbers</a></li>
+                    <li><a href="#">Carrots</a></li>
+                    <li><a href="#">Eggplant</a></li>
+                </ul>
+            
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
