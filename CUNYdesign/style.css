@@ -16,9 +16,10 @@ justify-content: space-between;
 .hero{
 
 background: url(https://bmccprodstroac.blob.core.windows.net/uploads/2019/06/main-campus.jpg);
-padding: 2em;
+padding: 4em 2em;
 color: white;
 margin-bottom: 3em;
+background-position: bottom;
 }
 
 .hero p{
@@ -41,7 +42,7 @@ display: inline-block;
 
 
 body{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -98,6 +99,8 @@ width: 32%;
 text-decoration: none;
 color: #fff;
 width: 32%;
+display: block;
+padding: 5px;
 }
 
 .dropdown li a{
@@ -152,8 +155,13 @@ display: flex;
 /* main grid*/
 .home main{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: minmax(500px, 1fr) 300px;
     grid-gap: 2em;
+}
+
+.dropdown ul{
+position: absolute;
+
 }
 
 } /* end of media query */
