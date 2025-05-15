@@ -54,15 +54,13 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 
 #top-nav{
-display: none;
 position: absolute;
 right: 0;
-top: 50px;
+top: -200px;
 z-index: 100;
 border:solid 1px #000;
 background-color: #fff;
-transform: translate(-200px);
-transition-property: transform 0.3s ease-in;
+transition: top .3s ease-in;
 
 }
 

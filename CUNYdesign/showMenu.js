@@ -1,9 +1,9 @@
 function showMenu(){
     var  menu = document.getElementById("top-nav");
-    if  (menu.style.display==="none" || menu.style.display === ''){
-        menu.style.display="block";
-        menu.style.transform="translateY(100px)"
+    if  (menu.style.top==="-200px" || menu.style.top === ''){
+        menu.style.top="50px";
+        
     } else {
-    menu.style.display="none";
+    menu.style.top="-200px";
         }
     }
